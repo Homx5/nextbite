@@ -49,3 +49,47 @@ body {
   font-size: .85rem;
   color: #666;
 }
+
+.card {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.card:hover {
+  box-shadow: 0 4px 14px rgba(0, 0, 0, .1);
+  transform: translateY(-2px);
+  transition: .15s;
+}
+
+.search {
+  width: 100%;
+  max-width: 420px;
+  padding: .7rem 1rem;
+  margin: 1rem 0 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.empty {
+  color: #666;
+}
+
+.back {
+  color: #c2410c;
+  text-decoration: none;
+}
+
+.detail-art {
+  font-size: 5rem;
+  margin: 1rem 0;
+}
+
+.container h2 {
+  margin-top: 1.5rem;
+}
+
+.container li {
+  margin: .3rem 0;
+}
